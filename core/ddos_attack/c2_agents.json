@@ -1,0 +1,11 @@
+[
+  {
+    "agent_id": "testbot",
+    "hostname": "test",
+    "ip": "127.0.0.1",
+    "platform": "test",
+    "version": "1.0",
+    "connected_at": "2026-09-28T04:16:55.753937",
+    "last_seen": "2026-09-28T04:16:55.753937"
+  }
+]

@@ -1,0 +1,8 @@
+{
+    "listen_host": "0.0.0.0",
+    "listen_port": 6667,
+    "public_host": "YOUR PUBLIC IP HERE",
+    "public_port": 9001,
+    "agent_c2_port": 9001,
+    "scan_listen_port": 9002
+}
